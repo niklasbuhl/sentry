@@ -1,0 +1,568 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inc",
+				"incommingValue"
+			],
+			[
+				"incomming",
+				"incommingValue"
+			],
+			[
+				"in",
+				"incomming"
+			],
+			[
+				"digit",
+				"digitalWrite"
+			],
+			[
+				"chage",
+				"changeState"
+			],
+			[
+				"change",
+				"changeState"
+			],
+			[
+				"analog",
+				"analogRead"
+			],
+			[
+				"RF",
+				"RFRECEIVER"
+			],
+			[
+				"strin",
+				"string_index"
+			],
+			[
+				"friend",
+				"friendinfo"
+			],
+			[
+				"frien",
+				"friendsfile"
+			],
+			[
+				"fri",
+				"friendinfo"
+			],
+			[
+				"frine",
+				"friendinfo"
+			],
+			[
+				"frined",
+				"friendsfile"
+			],
+			[
+				"F",
+				"FriendsApplication"
+			],
+			[
+				"phone",
+				"phonenumber"
+			],
+			[
+				"tmp",
+				"tmp_Friend"
+			],
+			[
+				"tm",
+				"tmp_Friend"
+			],
+			[
+				"Fir",
+				"FriendsDatabase"
+			],
+			[
+				"tmp_",
+				"tmp_lastName"
+			],
+			[
+				"Friend",
+				"FriendsApplication"
+			],
+			[
+				"friends",
+				"friendsFile"
+			],
+			[
+				"c",
+				"currentFriend"
+			],
+			[
+				"int",
+				"interests"
+			],
+			[
+				"t",
+				"theAreal"
+			],
+			[
+				"p",
+				"pRect"
+			],
+			[
+				"re",
+				"record_pointer"
+			],
+			[
+				"de",
+				"dimensions"
+			],
+			[
+				"d",
+				"dimensions"
+			],
+			[
+				"bu",
+				"buttonPushed"
+			],
+			[
+				"BUTT",
+				"BUTTONUP"
+			],
+			[
+				"BUTTON",
+				"BUTTONUP"
+			],
+			[
+				"B",
+				"BUTTONUP"
+			],
+			[
+				"add",
+				"addRecord"
+			],
+			[
+				"heart",
+				"heartRate"
+			],
+			[
+				"HEA",
+				"POTENTIOMETER_HEARTRATE"
+			],
+			[
+				"P",
+				"POTENTIOMETER_HEARTRATE"
+			],
+			[
+				"hear",
+				"heartRate"
+			],
+			[
+				"C",
+				"CHIPSELECT"
+			],
+			[
+				"prin",
+				"println"
+			],
+			[
+				"v",
+				"value"
+			],
+			[
+				"new",
+				"newNode"
+			],
+			[
+				"mu",
+				"myBuffer"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "version5alpha_sinus_square_timer0_interrupt.ino",
+			"settings":
+			{
+				"buffer_size": 4398,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "global.h",
+			"settings":
+			{
+				"buffer_size": 716,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "#ifndef IOPINS_h\n#define IOPINS_h\n\n// R2R (Port A) // This is just to indicate Port A is being used to the R2R ladder\n\n// Interrupts\n#define INTERRUPT_BTN_0 2 // The pin connected to interrupt button 0\n#define INTERRUPT_BTN_1 3 // The pin connected to interrupt button 1\n\n\n// Wave LEDs\n#define SINWAVE_LED 30 // Pin the Sin Wave indicator is connected to\n#define SQUAREWAVE_LED 31 // Pin the Square Wave indicator is connected to\n\n\n// Frequency LEDs (In port C)\n#define FREQ_0_LED 32 // Pin to Frequency Mode 0 indicator\n#define FREQ_1_LED 33 // Pin to Frequency Mode 1 indicator\n#define FREQ_2_LED 34 // Pin to Frequency Mode 2 indicator\n#define FREQ_3_LED 35 // Pin to Frequency Mode 3 indicator\n\n#endif\n",
+			"file": "IOPINS.h",
+			"file_size": 706,
+			"file_write_time": 130916522650000000,
+			"settings":
+			{
+				"buffer_size": 706,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "#ifndef variables_h\n#define variables_h\n\nenum Wave { // Creation of a variable that can \n  sinusWave, // Sinus Wave\n  squareWave // Square Wave\n};\n\n#endif\n",
+			"file": "variables.h",
+			"file_size": 156,
+			"file_write_time": 130916522650000000,
+			"settings":
+			{
+				"buffer_size": 155,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/nhb/Education/DTU/1_Semester/Introduktion_til_Indlejrede Systemer/Radio/main/main.ino",
+		"/Users/nhb/Education/DTU/1_Semester/Introduktion_til_Indlejrede Systemer/Radio/rftransmitter/rftransmitter.ino",
+		"/Users/nhb/Education/DTU/1_Semester/Introduktion_til_Indlejrede Systemer/Radio/rfreceiver/rfreceiver.ino",
+		"/Users/nhb/Education/DTU/1_Semester/Hardwarenær_Programmering/Opgaver/friends_v2/friendsdatabase.cpp",
+		"/Users/nhb/Education/DTU/1_Semester/Hardwarenær_Programmering/Opgaver/friends_v2/friendsapplication.cpp",
+		"/Users/nhb/Education/DTU/1_Semester/Hardwarenær_Programmering/Opgaver/friends_v2/friendsdatabase.h",
+		"/Users/nhb/Education/DTU/1_Semester/Hardwarenær_Programmering/Opgaver/friends_v2/friendsapplication.h",
+		"/Users/nhb/Education/DTU/1_Semester/Hardwarenær_Programmering/Opgaver/friends_v2/friend.h",
+		"/Users/nhb/Education/DTU/1_Semester/Hardwarenær_Programmering/Opgaver/friends_v2/main.cpp",
+		"/Users/nhb/Education/DTU/1_Semester/Hardwarenær_Programmering/Opgaver/friends_v2/globalheader.h",
+		"/Users/nhb/Education/DTU/1_Semester/Hardwarenær_Programmering/Opgaver/friends/friends.cpp",
+		"/Users/nhb/Education/DTU/1_Semester/Hardwarenær_Programmering/Opgaver/friends/friends.h",
+		"/Users/nhb/Education/DTU/1_Semester/Hardwarenær_Programmering/Opgaver/friends/main.cpp",
+		"/Users/nhb/Education/DTU/1_Semester/Hardwarenær_Programmering/Opgaver/CPP/main.cpp",
+		"/Users/nhb/Education/DTU/1_Semester/Hardwarenær_Programmering/Opgaver/CPP/geometrics.cpp",
+		"/Users/nhb/Education/DTU/1_Semester/Hardwarenær_Programmering/Opgaver/CPP/geometrics.h",
+		"/Users/nhb/Education/DTU/1_Semester/Hardwarenær_Programmering/Opgaver/Databaser/c_code/database.cpp",
+		"/Users/nhb/Education/DTU/1_Semester/Hardwarenær_Programmering/Opgaver/Databaser/c_code/database.h",
+		"/Users/nhb/Education/DTU/1_Semester/Hardwarenær_Programmering/Opgaver/Databaser/c_code/c_code.cpp",
+		"/Users/nhb/Education/DTU/1_Semester/Hardwarenær_Programmering/Opgaver/Databaser/c_code/c_code.ino",
+		"/Users/nhb/Education/DTU/1_Semester/Hardwarenær_Programmering/Opgaver/Databaser/c_code/test2.cpp",
+		"/Users/nhb/Education/DTU/1_Semester/Hardwarenær_Programmering/Opgaver/Databaser/c_code/test.cpp",
+		"/Users/nhb/Education/DTU/1_Semester/Hardwarenær_Programmering/Opgaver/Databaser/c_code/code.cpp",
+		"/Users/nhb/Education/DTU/1. Semester/Hardwarenær Programmering/Opgaver/Databaser/code/database.h",
+		"/Users/nhb/Education/DTU/1. Semester/Hardwarenær Programmering/Opgaver/Databaser/code/database.cpp",
+		"/Users/nhb/Education/DTU/1_Semester/Hardwarenær_Programmering/Opgaver/Databaser/code/test.cpp",
+		"/Users/nhb/Education/DTU/1. Semester/Hardwarenær Programmering/Opgaver/Databaser/code/code.ino",
+		"/Users/nhb/Education/DTU/1. Semester/Introduktion til Indlejrede Systemer/Uge9/project/code/code.ino",
+		"/private/var/folders/09/mrcljhk163sbcsxcwz_p0t9w0000gn/T/57128f2d-690f-4159-9661-dd4e1d37d968/wiz/style.css",
+		"/Users/nhb/Formal Education/DTU/1. Semester/Introduktion til Indlejrede Systemer/Uge9/project/code/code.ino",
+		"/Users/nhb/Desktop/electrocardiograph.ino",
+		"/Users/nhb/Formal Education/DTU/1. Semester/Hardwarenær Programmering/Opgaver/LinkedList/arduino_c/linkedlist.cpp",
+		"/Users/nhb/Formal Education/DTU/1. Semester/Hardwarenær Programmering/Opgaver/LinkedList/arduino_c/linkedlist.h",
+		"/Users/nhb/Formal Education/DTU/1. Semester/Hardwarenær Programmering/Opgaver/LinkedList/arduino_c/arduino_c.ino",
+		"/Users/nhb/Formal Education/DTU/1. Semester/Hardwarenær Programmering/Opgaver/koeer_og_lister/arduino_c/buffer.cpp",
+		"/Users/nhb/Formal Education/DTU/1. Semester/Hardwarenær Programmering/Opgaver/koeer_og_lister/arduino_c/buffer.h",
+		"/Users/nhb/Formal Education/DTU/1. Semester/Hardwarenær Programmering/Opgaver/koeer_og_lister/arduino_c/arduino_c.ino",
+		"/Users/nhb/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/nhb/Documents/Arduino/libraries/dht11/dht11.cpp",
+		"/Users/nhb/Documents/Arduino/libraries/dht11/dht11.h",
+		"/Users/nhb/Projects/Sentry/workspace/arduino_c/version1alpha/IOarduino.h"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "version5alpha_sinus_square_timer0_interrupt.ino",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4398,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2030,
+								2030
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/User/Stino/Arduino.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "global.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 716,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								715,
+								715
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "IOPINS.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 706,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								119,
+								119
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "variables.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 155,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								146,
+								146
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "interrupt&timer.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
